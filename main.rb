@@ -11,7 +11,6 @@ require_relative "models/stonk_change"
 require_relative "models/discord_user"
 require_relative "models/discord_user_stonk"
 require_relative "models/disco_bot"
-require_relative "./lib/DatabaseManager"
 
 if (ENV["development_phase"] != "production")
   require_relative "env_variables"
