@@ -1,0 +1,10 @@
+# Additional options for `ack` search utility
+
+## Directories to ignore ##
+
+# Documentation generator output
+--ignore-directory=is:.yardoc
+--ignore-directory=is:doc
+
+# Generated coverage reports
+--ignore-directory=is:coverage
